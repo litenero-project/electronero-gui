@@ -2,7 +2,7 @@ TEMPLATE = app
 
 QT += qml quick widgets
 
-WALLET_ROOT=$$PWD/electronero
+WALLET_ROOT=$$PWD/litenero
 
 CONFIG += c++11 link_pkgconfig
 packagesExist(hidapi-libusb) {
@@ -458,7 +458,7 @@ OTHER_FILES += \
 
 DISTFILES += \
     notes.txt \
-    electronero/src/wallet/CMakeLists.txt \
+    litenero/src/wallet/CMakeLists.txt \
     components/MobileHeader.qml
 
 
